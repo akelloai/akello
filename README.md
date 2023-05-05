@@ -28,7 +28,30 @@ Supported screeners:
 TBD
 
 # Installation and Setup
-TBD
+
+Install the python package using pip
+```bash
+pip install akellogpt
+```
+
+Setup
+```python
+from akellogpt.screening.mental_health import PHQ9
+phq9 = PHQ9('<AKELLO_AI_API_TOKEN>')
+```
+
+Add responses for the screener
+```python
+for question in phq9.questions:
+    question.add_response('ok')
+
+```
+
+Score the screener and view the score
+```python
+phq9.score_screener()
+print(phq9.score) 
+```
 
 # Interactive Workflows
 TBD
