@@ -1,4 +1,5 @@
 # akello-gpt
+[![PyPI version](https://badge.fury.io/py/akellogpt.svg)](https://badge.fury.io/py/akellogpt)
 
 ![Alt text](/banner.jpg "akello-gpt")
 
