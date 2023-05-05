@@ -1,6 +1,6 @@
 import unittest, responses
-from screening.mental_health import GAD7
-from settings import API_URL
+from akellogpt.screening.mental_health import GAD7
+from akellogpt.settings import API_URL
 
 class TestGAD7(unittest.TestCase):
 

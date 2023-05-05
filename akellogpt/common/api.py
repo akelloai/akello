@@ -1,5 +1,5 @@
 import requests
-from settings import API_URL
+from akellogpt.settings import API_URL
 
 
 class API(object):

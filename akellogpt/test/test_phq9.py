@@ -1,7 +1,6 @@
 import unittest, responses
-from screening.mental_health import PHQ9
-from settings import API_URL
-
+from akellogpt.screening.mental_health import PHQ9
+from akellogpt.settings import API_URL
 
 
 

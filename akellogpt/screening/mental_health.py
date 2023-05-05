@@ -1,4 +1,4 @@
-from screening import Screener
+from akellogpt.screening import Screener
 
 
 class PHQ9(Screener):
