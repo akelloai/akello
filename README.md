@@ -7,7 +7,7 @@ akello-gpt is a SDK for Akello AI's gpt service designed to help developers rece
 
 
 ```python
-from screening.mental_health import PHQ9
+from akellogpt.screening.mental_health import PHQ9
 phq9 = PHQ9('<AKELLO_AI_API_TOKEN>')
 for question in phq9.questions:
     question.add_response('ok')
