@@ -2,17 +2,17 @@ import yaml
 from akellogpt.common.api import API
 from yaml import CLoader as Loader
 import pathlib
+from akellogpt.settings import API_URL
 
 current_path = str(pathlib.Path(__file__).parent.resolve())
-
-api = API('a', None)
 
 
 class Screener(object):
 
-    def __init__(self, akello_api_token):
+    def __init__(self, akello_api_token, akello_api_url=API_URL):
         self.score = 0
         self.questions = []
+        self.api = API(akello_api_token, akello_api_url)
         self.akello_api_token = akello_api_token
 
         with open(f'{current_path}/yaml/{self.YAML_FILE}', 'r') as file:
@@ -26,7 +26,7 @@ class Screener(object):
 
     def load_question_and_options(self, questions):
         for question in questions:
-            screening_question = ScreeningQuestion(question['order'], question['question'])
+            screening_question = ScreeningQuestion(question['order'], question['question'], api=self.api)
             for option in question['options']:
                 screening_question.add_option(option['name'], option['value'])
             self.questions.append(screening_question)
@@ -42,7 +42,8 @@ class Screener(object):
 
 class ScreeningQuestion(object):
 
-    def __init__(self, key, question):
+    def __init__(self, key, question, api=None):
+        self.api = api
         self.score = 0
         self.key = key
         self.question = question
@@ -57,7 +58,7 @@ class ScreeningQuestion(object):
         self.responses.append(response)
 
     def score_question(self):
-        self.score = api.score_screening_question(self.to_json())
+        self.score = self.api.score_screening_question(self.to_json())
         return self.score
 
     def to_json(self):

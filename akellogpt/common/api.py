@@ -1,5 +1,4 @@
 import requests
-from akellogpt.settings import API_URL
 
 
 class API():
@@ -7,8 +6,8 @@ class API():
     API helper for Akello AI services
     """
 
-    def __init__(self, token, headers):
-        self.url = API_URL
+    def __init__(self, token, api_url, headers=None):
+        self.url = api_url
         self.headers = headers
 
     def post(self, data):
