@@ -1,7 +1,9 @@
 import yaml
-from common.api import API
-from settings import SCREENING_PATH
+from akellogpt.common.api import API
 from yaml import CLoader as Loader
+import pathlib
+
+current_path = str(pathlib.Path(__file__).parent.resolve())
 
 api = API('a', None)
 
@@ -13,7 +15,7 @@ class Screener(object):
         self.questions = []
         self.akello_api_token = akello_api_token
 
-        with open(f'{SCREENING_PATH}/{self.YAML_FILE}', 'r') as file:
+        with open(f'{current_path}/yaml/{self.YAML_FILE}', 'r') as file:
             screener = yaml.load(file, Loader=Loader)
             self.load_question_and_options(screener['questions'])
 
