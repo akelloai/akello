@@ -25,8 +25,16 @@ Supported screeners:
 * **The Suicide Behaviors Questionnaire-Revised (SBQ-R)**
 
 # Using akello-gpt for chat-based screening
-<TBD>
+TBD
 
+# Installation and Setup
+TBD
+
+# Interactive Workflows
+TBD
+
+# Handling low confidence responses
+TBD
 
 # Future work
-<TBD>
+TBD
