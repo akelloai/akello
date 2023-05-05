@@ -1,4 +1,7 @@
 # akello-gpt
+[![PyPI version](https://badge.fury.io/py/akellogpt.svg)](https://badge.fury.io/py/akellogpt)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 ![Alt text](/banner.jpg "akello-gpt")
 
