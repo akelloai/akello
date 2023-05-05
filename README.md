@@ -12,9 +12,6 @@ akello-gpt is a service designed to help developers build engaging patient exper
 * **Mood Disorder Questionnaire (MDQ)**
 * **The Suicide Behaviors Questionnaire-Revised (SBQ-R)**
 
-# Using akello-gpt for chat-based screening
-TBD
-
 # Installation and Setup
 
 Install the python package using pip
