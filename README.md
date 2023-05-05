@@ -6,7 +6,6 @@
 akello-gpt is a service designed to help developers build engaging patient experience to collect screening information. We do this by implementing a deterministic model designed for healthcare applications. 
 
 # Supported screeners
-
 * **Patient Health Questionnaire-9 (PHQ-9)** 
 * **General Anxiety Disorder-7 (GAD7)**
 * **Kessler Psychological Distress Scale (K10)**
@@ -42,17 +41,10 @@ phq9.score_screener()
 print(phq9.score) 
 ```
 
-# Interactive Workflows
-TBD
-
-# Handling low confidence responses
-TBD
-
 # Future work
-TBD
+We will be expanding akello-gpt to support Workflows
 
 # Contributing to akello-gtp
-
 1. Fork it
 2. Create your feature branch (git checkout -b my-new-feature).
 3 Commit your changes (git commit -am 'Added some feature')
