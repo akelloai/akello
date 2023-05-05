@@ -10,11 +10,13 @@ setup(
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
     include_package_data=True,
+    test_suite="akellogpt",
     package_data={'akellogpt': ['*.yaml']},
     author="Vijay Selvaraj",
     author_email="vijay@akellohealth.com",
     license='MIT',
     packages=find_packages(),
+    tests_require=['PyYAML', 'responses'],
     install_requires=['PyYAML', 'requests', 'responses'],
     keywords='healthcare, chatgpt, screening',
     classifiers= [
