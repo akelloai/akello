@@ -28,8 +28,8 @@ phq9 = PHQ9('<AKELLO_AI_API_TOKEN>')
 Add responses for the screener
 ```python
 for question in phq9.questions:
-    question.add_response('ok')
-
+    question_number = question['order']    
+    question.add_response(patient_responses[question_number])
 ```
 
 Score the screener and view the score
