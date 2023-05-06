@@ -42,25 +42,6 @@ phq9.score_screener()
 print(phq9.score) 
 ```
 
-# Add custom screeners using a YAML file
-If you want to leverage akello-gpt for any questionnaire you can do so with a custom YAML file
-
-```yaml
----
- name: "Name of the questionnaire"
- questions:
-   - order: 1
-     question: "A question you would ask your audience"
-     options:
-       - name: 'an option they might select'
-         value: 1 # a score value for the option (this will be summed up at the end)
-```
-
-Import the YAML file to setup your screener object
-```python
-from akellogpt.screening import Screener
-screener = Screener('<AKELLO_AI_API_TOKEN>', custom_yaml='<PATH_TO_YOUR_YAML_FILE>')
-```
 
 # Future work
 We will be expanding akello-gpt to support Workflows
