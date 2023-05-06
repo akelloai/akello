@@ -17,13 +17,14 @@ class Screener:
 
     YAML_FILE = None
 
-    def __init__(self, akello_api_token, akello_api_url=API_URL):
+    def __init__(self, akello_api_token, akello_api_url=API_URL, custom_yaml=None):
         self.score = 0
         self.questions = []
         self.api = API(akello_api_token, akello_api_url)
         self.akello_api_token = akello_api_token
 
-        with open(f'{CURRENT_PATH}/yaml/{self.YAML_FILE}', 'r', encoding="utf-8") as file:
+        yaml_file = custom_yaml if custom_yaml else f'{CURRENT_PATH}/yaml/{self.YAML_FILE}'
+        with open(yaml_file, 'r', encoding="utf-8") as file:
             screener = yaml.load(file, Loader=Loader)
             self.load_question_and_options(screener['questions'])
 
@@ -85,7 +86,7 @@ class ScreeningQuestion:
         Add an option to the screening question
         """
 
-        option = ScreeningQuestion(name, value)
+        option = ScreeningOption(name, value)
         self.options.append(option)
 
     def add_response(self, response):
