@@ -1,3 +1,7 @@
+"""
+Unit tests for GAD7 Screener
+"""
+
 import unittest
 import responses
 from akellogpt.screening.mental_health import GAD7
