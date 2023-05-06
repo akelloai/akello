@@ -1,3 +1,7 @@
+"""
+Unit tests for PHQ9 Screener
+"""
+
 import unittest
 import responses
 from akellogpt.screening.mental_health import PHQ9
