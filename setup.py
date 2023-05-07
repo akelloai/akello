@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.3'
+VERSION = '0.0.4'
 DESCRIPTION = 'ChatGPT for healthcare applications'
 LONG_DESCRIPTION = 'Akello GPT helps ensure deterministic results for healthcare applications '
 

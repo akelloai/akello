@@ -17,11 +17,21 @@ class Screener:
 
     YAML_FILE = None
 
-    def __init__(self, akello_api_token, akello_api_url=API_URL, custom_yaml=None):
+    def __init__(self,
+                 api_token,
+                 account_id,
+                 user_id,
+                 api_url=API_URL,
+                 custom_yaml=None):
         self.score = 0
         self.questions = []
-        self.api = API(akello_api_token, akello_api_url)
-        self.akello_api_token = akello_api_token
+
+        self.api = API(api_token=api_token,
+                       api_url=api_url,
+                       account_id=account_id,
+                       user_id=user_id,
+                       measurement_type=self.name
+                       )
 
         yaml_file = custom_yaml if custom_yaml else f'{CURRENT_PATH}/yaml/{self.YAML_FILE}'
         with open(yaml_file, 'r', encoding="utf-8") as file:
@@ -55,8 +65,28 @@ class Screener:
         Score the screener
         """
 
-        self.score = sum(question.score_question() for question in self.questions)
+        self.score = sum(question.score_question()['score'] for question in self.questions)
 
+    def prompt_user_input(self, user_input, idx):
+        assert idx < len(self.questions)
+
+        self.questions[idx].responses = [user_input]
+        resp = self.questions[idx].score_question()
+        next_idx = idx
+        if 'clarifying_question' in resp and resp['clarifying_question']:
+            prompt = resp['clarifying_question']
+        else:
+            self.api.save_screening_question_score(self.questions[idx])
+            next_idx +=1
+            prompt = self.questions[next_idx].question
+            self.questions[idx].score = resp['score']
+            self.score += resp['score']
+
+
+        return {
+            'prompt': prompt,
+            'next_idx': next_idx
+        }
 
     def to_json(self):
         """
@@ -100,8 +130,9 @@ class ScreeningQuestion:
         """
         Score the screening question (API call)
         """
-        self.score = self.api.score_screening_question(self.to_json())
-        return self.score
+        score_resp = self.api.score_screening_question(self.to_json())
+        self.score = score_resp['score']
+        return score_resp
 
     def to_json(self):
         """
