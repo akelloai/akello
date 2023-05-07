@@ -2,7 +2,7 @@
 Collection of supported Mental Health screeners
 """
 
-from akellogpt.screening import Screener
+from akello.screening import Screener
 
 
 class PHQ9(Screener):

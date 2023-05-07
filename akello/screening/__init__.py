@@ -4,8 +4,8 @@ Common classes for screening
 import pathlib
 import yaml
 from yaml import CLoader as Loader
-from akellogpt.common.api import API
-from akellogpt.settings import API_URL
+from akello.common.api import API
+from akello.settings import API_URL
 
 CURRENT_PATH = str(pathlib.Path(__file__).parent.resolve())
 

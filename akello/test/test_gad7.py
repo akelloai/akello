@@ -4,8 +4,8 @@ Unit tests for GAD7 Screener
 
 import unittest
 import responses
-from akellogpt.screening.mental_health import GAD7
-from akellogpt.settings import API_URL
+from akello.screening.mental_health import GAD7
+from akello.settings import API_URL
 
 
 class TestGAD7(unittest.TestCase):

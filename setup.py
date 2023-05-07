@@ -1,17 +1,17 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.4'
+VERSION = '0.0.1'
 DESCRIPTION = 'ChatGPT for healthcare applications'
 LONG_DESCRIPTION = 'Akello GPT helps ensure deterministic results for healthcare applications '
 
 setup(
-    name="akellogpt",
+    name="akello",
     version=VERSION,
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
     include_package_data=True,
-    test_suite="akellogpt",
-    package_data={'akellogpt': ['*.yaml']},
+    test_suite="akello",
+    package_data={'akello': ['*.yaml']},
     author="Vijay Selvaraj",
     author_email="vijay@akellohealth.com",
     license='MIT',

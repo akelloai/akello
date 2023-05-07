@@ -4,8 +4,8 @@ Unit tests for PHQ9 Screener
 
 import unittest
 import responses
-from akellogpt.screening.mental_health import PHQ9
-from akellogpt.settings import API_URL
+from akello.screening.mental_health import PHQ9
+from akello.settings import API_URL
 
 
 class TestPHQ9(unittest.TestCase):
