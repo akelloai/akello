@@ -41,6 +41,12 @@ phq9 = MentalHealth('phq9', api)
 
 ## Services
 
+### Predictive Analytics
+
+* Identify patients that are at risk of not showing up for their next appointment
+* Scan EHR systems to review and classify patients that are likely to have a condition
+* Determine which treatments are effective for patient populations
+
 ### Screening
 The screening service helps developers build engaging patient experience to collect screening information. We do this by implementing a deterministic model designed for healthcare applications.
 
