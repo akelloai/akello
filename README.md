@@ -39,7 +39,10 @@ api = ScreeningAPI(api_token='<AKELLO_AI_API_TOKEN>')
 phq9 = MentalHealth('phq9', api)
 ```
 
-## Insights
+## [Registry](akello/registry/README.md)  
+TBD
+
+## [Insights](akello/insights/README.md)
 * Data visualization 
 
 ### Classification
@@ -49,7 +52,7 @@ phq9 = MentalHealth('phq9', api)
 ### Predictive
 * Identify patients that are at risk of not showing up for their next appointment
 
-## Screening
+## [Screening](akello/screening/README.md)
 The screening service helps developers build engaging patient experience to collect screening information. We do this by implementing a deterministic model designed for healthcare applications.
 
 Currently we support the following screeners (more to come soon):
@@ -59,16 +62,14 @@ Currently we support the following screeners (more to come soon):
 * **Mood Disorder Questionnaire (MDQ)**
 * **The Suicide Behaviors Questionnaire-Revised (SBQ-R)**
 
-## Measurements
+## [Measurements](akello/measurements/README.md)
 Our measurement service is our core data ingestor. Data from sensors, screeners and lab data gets collected under measurements. Withing this service you can define rules to call a webhook back to your system to notify teams if an intervention is needed for a patient.
-
-[more info](akello/measurements/README.md)
 
 
 ### Webhooks
 TBD
 
-## Transportation
+## [Transportation] (akello/transportation/README.md)
 TBD
 
 ### Uber Health
@@ -76,14 +77,14 @@ TBD
 ### Automated Scheduler
 TBD
 
-## Hardware Sensors 
+## [Hardware Sensors] (akello/hardware/README.md)
 TBD
 
 ### Withings
 TBD
 
 
-## Labs
+## [Labs] (akello/labs/README.md)
 
 Supported labs
 
