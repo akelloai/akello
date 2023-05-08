@@ -5,7 +5,7 @@
 
 ![Alt text](/banner.jpg "akello-gpt")
 
-# Run Medication Assisted Treatment (MAT) programs on Akello
+# Overview
 Akello is a data platform that is designed to support medication assisted treatments for patient populations. One of its key features is its ability to enable developers to integrate natural language queries for patient populations. Moreover, Akello has the capacity to measure patients and streamline screening procedures, which aids in the efficient triage of patients by clinical teams. Additionally, Akello can facilitate the evaluation of treatment efficacy to aid in the determination of their effectiveness.
 
 ## Patient Engagement
@@ -22,7 +22,9 @@ Some of the biggest barriers to patient engagement with medication treatments ar
 We are currently in private beta. To get request access send a message to **vijay@akello.ai**.
 
 
-# Installation and Setup
+# Run Medication Assisted Treatment (MAT) programs on Akello
+
+## Installation and Setup
 
 Install the python package using pip
 ```bash
@@ -37,9 +39,9 @@ api = ScreeningAPI(api_token='<AKELLO_AI_API_TOKEN>')
 phq9 = MentalHealth('phq9', api)
 ```
 
-# Services
+## Services
 
-## Screening
+### Screening
 The screening service helps developers build engaging patient experience to collect screening information. We do this by implementing a deterministic model designed for healthcare applications.
 
 Currently we support the following screeners (more to come soon):
@@ -49,32 +51,32 @@ Currently we support the following screeners (more to come soon):
 * **Mood Disorder Questionnaire (MDQ)**
 * **The Suicide Behaviors Questionnaire-Revised (SBQ-R)**
 
-## Measurements
+### Measurements
 Our measurement service is our core data ingestor. Data from sensors, screeners and lab data gets collected under measurements. Withing this service you can define rules to call a webhook back to your system to notify teams if an intervention is needed for a patient.
 
-### Webhooks
+#### Webhooks
 TBD
 
-## Transportation
+### Transportation
 TBD
 
-### Uber Health
+#### Uber Health
 ![Alt text](/uber.jpeg "uber")
 
 
-### Automated Scheduler
+#### Automated Scheduler
 TBD
 
-## Hardware Sensors 
+### Hardware Sensors 
 TBD
 
-### Withings
+#### Withings
 TBD
 
 ![Alt text](/scale.png "withings")
 
 
-## Labs
+### Labs
 
 Supported labs
 
@@ -91,7 +93,7 @@ Supported labs
 | HDL-C                                             | Blood Creatinine |
 
 
-## Analytics
+### Analytics
 TBD
 
 # Future work
