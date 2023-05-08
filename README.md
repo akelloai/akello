@@ -6,7 +6,7 @@
 ![Alt text](/banner.jpg "akello-gpt")
 
 # Run Medication Assisted Treatment (MAT) programs on Akello
-Akello is a data platform that is specifically designed to support medication assisted treatments for patient populations. One of its key features is its ability to enable developers to integrate natural language queries for patient populations. Moreover, Akello has the capacity to measure patients and streamline screening procedures, which aids in the efficient triage of patients by clinical teams. Additionally, Akello can facilitate the evaluation of treatment efficacy to aid in the determination of their effectiveness.
+Akello is a data platform that is designed to support medication assisted treatments for patient populations. One of its key features is its ability to enable developers to integrate natural language queries for patient populations. Moreover, Akello has the capacity to measure patients and streamline screening procedures, which aids in the efficient triage of patients by clinical teams. Additionally, Akello can facilitate the evaluation of treatment efficacy to aid in the determination of their effectiveness.
 
 
 ### Private Beta
@@ -57,6 +57,8 @@ TBD
 
 ### Withings
 TBD
+
+![Alt text](/scale.png "withings")
 
 
 ## Labs
