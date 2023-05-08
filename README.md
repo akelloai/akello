@@ -66,9 +66,7 @@ TBD
 
 
 ## Labs
-
-
-| Supported Tests                                   | Supported Tests 
+Supported Lab Tests 
 |---------------------------------------------------|---------------------------------------------------|
 | CBC/5Part Diff                                    | Hemoglobin Alc   |
 | Metabolic Panel                                   | Liver Profile (AST, ALT, GGT, ALP) |
