@@ -8,6 +8,15 @@
 # Run Medication Assisted Treatment (MAT) programs on Akello
 Akello is a data platform that is designed to support medication assisted treatments for patient populations. One of its key features is its ability to enable developers to integrate natural language queries for patient populations. Moreover, Akello has the capacity to measure patients and streamline screening procedures, which aids in the efficient triage of patients by clinical teams. Additionally, Akello can facilitate the evaluation of treatment efficacy to aid in the determination of their effectiveness.
 
+## Patient Engagement
+Some of the biggest barriers to patient engagement with medication treatments are 
+* **Lack of understanding:** Patients may not fully understand their medication or its purpose, which can lead to confusion and non-adherence.
+* **Side effects:** Medications can cause uncomfortable or unwanted side effects, which can discourage patients from continuing their treatment.
+* **Cost:** Medications can be expensive, and patients may not be able to afford them, especially if they don't have insurance coverage or have high co-pays.
+* **Complexity:** Some medication regimens can be complex and require multiple doses per day or specific instructions for administration, which can be difficult for patients to manage.
+* **Fear or stigma:** Patients may feel embarrassed or ashamed about taking medication for certain conditions, such as mental health disorders, which can lead to non-adherence.
+* **Beliefs and attitudes:** Patients may have cultural or personal beliefs that are at odds with taking medication, such as a preference for natural remedies or a distrust of pharmaceutical companies.
+* **Language and literacy barriers:** Patients who have limited English proficiency or low health literacy may have difficulty understanding medication instructions and side effects, leading to non-adherence.
 
 ### Private Beta
 We are currently in private beta. To get request access send a message to **vijay@akello.ai**.
