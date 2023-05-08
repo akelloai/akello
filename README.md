@@ -62,6 +62,9 @@ Currently we support the following screeners (more to come soon):
 ## Measurements
 Our measurement service is our core data ingestor. Data from sensors, screeners and lab data gets collected under measurements. Withing this service you can define rules to call a webhook back to your system to notify teams if an intervention is needed for a patient.
 
+[more info](akello/measurements/README.md)
+
+
 ### Webhooks
 TBD
 
