@@ -10,8 +10,8 @@ Akello is a data platform that is specifically designed population health applic
 
 
 
-**Private Beta**
-We are currently in private beta. To get request access send a message to Vijay at **vijay@akello.ai**.
+### Private Beta
+We are currently in private beta. To get request access send a message to **vijay@akello.ai**.
 
 
 # Installation and Setup
@@ -42,6 +42,37 @@ The screening service helps developers build engaging patient experience to coll
 
 ## Measurements
 tbd
+
+## Transportation
+tbd
+
+## Hardware Sensors 
+tbd
+
+## Labs
+
+| Test Description |
+|------------------|
+| CBC/5Part Diff   |
+| Hemoglobin Alc   |
+| Metabolic Panel  |
+| Liver Profile (AST, ALT, GGT, ALP)  |
+| Lipids (Cholesterol, Trigs, HDL-C, LDL calc), Alc  |
+| AST (SGOT)  |
+| ALT (SGPT)  |
+| Alkaline Phosphatase  |
+| GGT  |
+| Blood Urea Nitrogen (BUN)  |
+| Bilirubin, Total  |
+| Protein, Total  |
+| Albumin  |
+| Uric Acid  |
+| Cholesterol, Total  |
+| Triglycerides  |
+| HDL-C  |
+| Blood Creatinine  |
+
+
 
 # Future work
 We will be expanding akello-gpt to support Workflows
