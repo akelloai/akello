@@ -22,7 +22,7 @@ Some of the biggest barriers to patient engagement with medication treatments ar
 We are currently in private beta. To get request access send a message to **vijay@akello.ai**.
 
 
-# Run Medication Assisted Treatment (MAT) programs on Akello
+# Run Medication Assisted Treatment (MAT) Programs
 
 ## Installation and Setup
 
