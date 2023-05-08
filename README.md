@@ -5,9 +5,8 @@
 
 ![Alt text](/banner.jpg "akello-gpt")
 
-# Overview
-Akello is a data platform that is specifically designed population health applications. One of its key features is its ability to enable developers to integrate natural language queries for patient populations. Moreover, Akello has the capacity to measure patients and streamline screening procedures, which aids in the efficient triage of patients by clinical teams. Additionally, Akello can facilitate the evaluation of treatment efficacy to aid in the determination of their effectiveness.
-
+# Medication Assisted Treatment Platform
+Akello is a data platform that is specifically designed to support medication assisted treatments for patient populations. One of its key features is its ability to enable developers to integrate natural language queries for patient populations. Moreover, Akello has the capacity to measure patients and streamline screening procedures, which aids in the efficient triage of patients by clinical teams. Additionally, Akello can facilitate the evaluation of treatment efficacy to aid in the determination of their effectiveness.
 
 
 ### Private Beta
@@ -43,11 +42,21 @@ The screening service helps developers build engaging patient experience to coll
 ## Measurements
 tbd
 
+### Webhooks
+tbd
+
 ## Transportation
+tbd
+
+### Automated Scheduler
 tbd
 
 ## Hardware Sensors 
 tbd
+
+### Withings
+tbd
+
 
 ## Labs
 
