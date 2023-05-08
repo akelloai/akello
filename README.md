@@ -69,8 +69,6 @@ TBD
 TBD
 
 ### Uber Health
-![Alt text](/uber.jpeg "uber")
-
 
 ### Automated Scheduler
 TBD
@@ -80,8 +78,6 @@ TBD
 
 ### Withings
 TBD
-
-![Alt text](/scale.png "withings")
 
 
 ## Labs
@@ -100,9 +96,6 @@ Supported labs
 | Triglycerides                                     | Cholesterol, Total |
 | HDL-C                                             | Blood Creatinine |
 
-
-## Analytics
-TBD
 
 # Future work
 We will be expanding akello-gpt to support Workflows
