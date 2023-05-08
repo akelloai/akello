@@ -69,7 +69,7 @@ Our measurement service is our core data ingestor. Data from sensors, screeners 
 ### Webhooks
 TBD
 
-## [Transportation] (akello/transportation/README.md)
+## [Transportation](akello/transportation/README.md)
 TBD
 
 ### Uber Health
@@ -77,14 +77,14 @@ TBD
 ### Automated Scheduler
 TBD
 
-## [Hardware Sensors] (akello/hardware/README.md)
+## [Hardware Sensors](akello/hardware/README.md)
 TBD
 
 ### Withings
 TBD
 
 
-## [Labs] (akello/labs/README.md)
+## [Labs](akello/labs/README.md)
 
 Supported labs
 
