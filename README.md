@@ -5,7 +5,7 @@
 
 ![Alt text](/banner.jpg "akello-gpt")
 
-# Medication Assisted Treatment Platform
+# Run Medication Assisted Treatment (MAT) programs on Akello
 Akello is a data platform that is specifically designed to support medication assisted treatments for patient populations. One of its key features is its ability to enable developers to integrate natural language queries for patient populations. Moreover, Akello has the capacity to measure patients and streamline screening procedures, which aids in the efficient triage of patients by clinical teams. Additionally, Akello can facilitate the evaluation of treatment efficacy to aid in the determination of their effectiveness.
 
 
@@ -30,9 +30,10 @@ phq9 = MentalHealth('phq9', api)
 
 # Services
 
-## Mental Health Screening
+## Screening
 The screening service helps developers build engaging patient experience to collect screening information. We do this by implementing a deterministic model designed for healthcare applications.
 
+Currently we support the following screeners (more to come soon):
 * **Patient Health Questionnaire-9 (PHQ-9)** 
 * **General Anxiety Disorder-7 (GAD7)**
 * **Kessler Psychological Distress Scale (K10)**
@@ -40,25 +41,26 @@ The screening service helps developers build engaging patient experience to coll
 * **The Suicide Behaviors Questionnaire-Revised (SBQ-R)**
 
 ## Measurements
-tbd
+Our measurement service is our core data ingestor. Data from sensors, screeners and lab data gets collected under measurements. Withing this service you can define rules to call a webhook back to your system to notify teams if an intervention is needed for a patient.
 
 ### Webhooks
-tbd
+TBD
 
 ## Transportation
-tbd
+TBD
 
 ### Automated Scheduler
-tbd
+TBD
 
 ## Hardware Sensors 
-tbd
+TBD
 
 ### Withings
-tbd
+TBD
 
 
 ## Labs
+
 
 | Test Description |
 |------------------|
@@ -82,6 +84,8 @@ tbd
 | Blood Creatinine  |
 
 
+## Analytics
+TBD
 
 # Future work
 We will be expanding akello-gpt to support Workflows
