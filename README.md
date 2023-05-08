@@ -68,26 +68,17 @@ TBD
 ## Labs
 
 
-| Test Description |
-|------------------|
-| CBC/5Part Diff   |
-| Hemoglobin Alc   |
-| Metabolic Panel  |
-| Liver Profile (AST, ALT, GGT, ALP)  |
-| Lipids (Cholesterol, Trigs, HDL-C, LDL calc), Alc  |
-| AST (SGOT)  |
-| ALT (SGPT)  |
-| Alkaline Phosphatase  |
-| GGT  |
-| Blood Urea Nitrogen (BUN)  |
-| Bilirubin, Total  |
-| Protein, Total  |
-| Albumin  |
-| Uric Acid  |
-| Cholesterol, Total  |
-| Triglycerides  |
-| HDL-C  |
-| Blood Creatinine  |
+| Supported Tests                                   | Supported Tests 
+|---------------------------------------------------|---------------------------------------------------|
+| CBC/5Part Diff                                    | Hemoglobin Alc   |
+| Metabolic Panel                                   | Liver Profile (AST, ALT, GGT, ALP) |
+| Lipids (Cholesterol, Trigs, HDL-C, LDL calc), Alc | AST (SGOT)  |
+| ALT (SGPT)                                        | Alkaline Phosphatase |
+| GGT                                               | Blood Urea Nitrogen (BUN) |
+| Bilirubin, Total                                  | Protein, Total  |
+| Albumin                                           | Uric Acid  |
+| Triglycerides                                     | Cholesterol, Total |
+| HDL-C                                             | Blood Creatinine |
 
 
 ## Analytics
